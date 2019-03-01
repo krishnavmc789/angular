@@ -1,0 +1,345 @@
+		**** Single Page Applications ****
+
+	- loading one template to another template without                  refreshing the whole webpage called as single page                application.
+
+	- loading one template to another template in single page
+	  applications called as routing.
+
+	- "Routes" is the Predefined Array in Angular.
+
+	- "Routes" array used to implement the "Routing" in                  Single Page Applications
+
+	- "RouterModule" is the Predefined Module in Angular.
+
+	- "RouterModule" used to load the "Routes" into Memory.
+
+	- "Router" is the Predefined Class in Angular.
+
+	- "Router" class used to define the Dynamic URL'S
+
+	- we will use These URL'S For Navigation in Single Page             Applications.
+
+	- "Routes" , "RouterModule" & "Router" available in
+          "@angular/router" package.
+
+
+Steps to implement the Single Page Application
+----------------------------------------------
+
+Step 1.
+	generate the components.
+
+	> ng g c components/index --spec=false -is
+
+	> ng g c components/pageone --spec=false -is
+
+	> ng g c components/pagetwo --spec=false -is
+
+	> ng g c components/pagethree --spec=false -is
+
+		- Automatically we can generate four components.
+
+		- where "IndexComponent" is the main component.
+
+		- where "PageoneComponent", "PagetwoComponent" &
+	          "PagethreeComponent" are the target components.
+
+
+
+Step 2.
+	implement the Business Logic in Target Components
+
+
+Step 3.
+	implement the presentation logic in main template
+
+
+Step 4.
+	implement the routing.
+
+
+***********************************
+spaDemo1
+       src
+	 app
+	   routings
+		app.routes.ts
+***********************************
+
+
+Step 5.
+	load "Routes" into memory By using "RouterModule"
+
+	
+
+	*** Steps to implement the Nested Routing ***
+
+
+
+1) Generate the Components
+
+
+2) implement business logic in target pages
+
+
+3) define the hyperlinks
+
+
+4) implement the routing
+
+
+			**** Auth Guards ****
+
+1) CanActivate
+	- CanActivate is the Authentication Guard in Angular.
+
+	- CanActivate is used to give the permission to enter           into main routes.
+	
+	- CanActivate is the Predefined interface.
+
+	- "canActivate()" is the unimplemented boolean method
+	  in CanActivate interface.
+
+
+2) CanDeactivate
+	- CanDeactivate is the Authentication Guard in Angular.
+
+	- CanDeactivate is used to give the permission to leave
+	  main routes into single page applications.
+
+	- CanDeactivate is the Predefined Interface.
+
+	- canDeactivate() is the unimplemented boolean method
+	  in "CanDeactivate" interface.
+
+
+3) CanActivateChild
+	- CanActivateChild is the Authentication Guard in 	            Angular.
+
+	- CanActivateChild is used to give the permission to 
+	  enter into child routes.
+
+	- CanActivateChild is the Predefined Interface.
+
+	- canActivateChild() is the unimplemented boolean method
+	  in CanActivateChild interface
+
+
+Note : we will implement route guards by using custom service.
+
+
+***********************************
+spaDemo1
+      src
+	app
+	  guards
+	    auth.guard.ts
+***********************************
+
+
+	**** Passing Parameters through Route Guards ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
